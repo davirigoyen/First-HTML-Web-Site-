@@ -1,0 +1,33 @@
+
+.title {
+    border: 4px solid rgb(138, 96, 96);
+    width: 40vw;
+    background-color: rgb(226, 220, 220);
+    margin: auto;
+}
+
+.title:hover {
+    background-color: rgb(209, 205, 195);
+}
+
+.title2 {
+    width: 20vw;
+    background-color: rgb(226, 220, 220);
+}
+
+p {
+    width: 50vw;
+}
+
+#sucesos {
+    background-color: rgb(226, 220, 220);
+    width: 50vw;
+}
+
+#sucesos:hover {
+    background-color: rgb(209, 205, 195);
+}
+
+
+
+
