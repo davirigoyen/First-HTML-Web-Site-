@@ -1,0 +1,49 @@
+/* reset.css */
+
+/* Eliminar márgenes y rellenos globalmente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establecer fuente base y altura de línea */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; /* Cambia la fuente según tus preferencias */
+    line-height: 1.5;
+    color: #333; /* Color de texto predeterminado */
+}
+
+/* Encabezados */
+h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Listas */
+ul, ol {
+    list-style: none; /* Eliminar estilo de lista */
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto */
+}
+
+/* Tablas */
+table {
+    border-collapse: collapse; /* Combinar bordes */
+    width: 100%; /* Asegurar que ocupen todo el ancho */
+}
+
+
+
+/* Elementos de formulario */
+input,
+textarea,
+select,
+button {
+    border: 1px solid #ccc; /* Borde predeterminado */
+    padding: 0.5em; /* Espaciado interno */
+    font-size: 100%;
