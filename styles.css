@@ -1,59 +1,83 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #fc4109;
-    color: #333;
-    margin: 10px;
+    margin: 0;
+    background-color: rgb(243, 223, 243);
   }
 
+header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(243, 223, 243);
+}
+
+p {
+    width: 25em;
+    height: 10em;
+    display: flex;
+    text-align: center;
+
+}
+
+button {
+    border: 1px solid black;
+    padding: 0.5em;
+    display: flex;
+}
+
 .img {
-    width: 235px;
+    width: 260px;
     height: 250px;
-    border: 3px double rgb(138, 96, 96);
+    border: 0.3em solid rgb(241, 171, 224);
     padding: 2px;
     order: -1;
 }
 
 .ramas {
-    border: 1px solid rgb(138, 96, 96);
-}
-
-#ramasflex {
-    background-color: aqua;
-    padding: 0.7em;    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    border: 1px solid rgb(241, 171, 224);
+    padding: 0.3em;
+    border-radius: 50px ;
 }
 
 .ramas:hover {
-    background-color: rgb(209, 205, 195);
+    background-color: rgb(241, 171, 224);
 }
 
 .title {
     font-size: large;
-    border: 4px double rgb(138, 96, 96);
+    border: 4px double rgb(190, 133, 182);
     width: 40vw;
-    background-color: rgb(226, 220, 220);
+    background-color: rgb(243, 223, 243);
     margin: auto;
-    margin-top: 0.5em;
-    margin-bottom: 0.8em;
-    padding: 0.7em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 0.2em;
+    font-size: 2em;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
 .title:hover {
-    background-color: rgb(209, 205, 195);
+    background-color: rgb(241, 171, 224);
 }
 
 .title2 {
-    width: 20vw;
-    background-color: rgb(226, 220, 220);
-    padding: auto;
+    width: 10em;
+    height: 5em;
+    border: 1px solid rgb(241, 171, 224); 
+    padding: 1em;
+    background-color: rgb(243, 223, 243);
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+.title2:hover {
+    background-color: rgb(241, 171, 224);
 }
 
 .itempa {
@@ -61,49 +85,124 @@ body {
 }
 
 .albumsestudio {
+    background-color: rgb(243, 223, 243);
     padding: 0.7em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-        
+}
+
+.titulolinkspot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulolinkspot .linkbuttonestudio {
+    margin-top: 2em;
+    display: flex;
+    justify-items: first baseline;
+}
+
+.albumsvivo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+       
+}
+
+.linkbuttonestudio {
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: green;
+    font-weight: bold;
+    font-size: small;
+    padding: 0.5em;
+}
+
+.linkbuttonvivo {
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: green;
+    font-weight: bold;
+    font-size: small;
+    padding: 0.5em;
+    
+}
+
+.bordeseparar {
+    border-top: 0.4em double rgb(241, 171, 224);
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.bordesepararpoco {
+    border-top: 0.15em double rgb(241, 171, 224);
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+#ramasflex {
+    margin-top: 0em;
+    background-color: rgb(243, 223, 243);
+    padding: 0.7em;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Woodstock {
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Woodstock p {
+    margin-top: 3em;
+}
+
+#monterey {
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#monterey p {
+    margin-top: 3em;
 }
 
 #title1 {
     font-size: 1.5em;
     border: 4px double rgb(138, 96, 96);
-    border-radius: 13%;
+    border-radius: 50px;
     width: 55vw;
-    background-color: rgb(248, 45, 197);
+    height: 7vw;
+    background-color: rgb(241, 171, 224);
     margin: auto;
-    padding: 0.5em;
+    margin-bottom: 1.5em;
+    margin-top: 2em;
+    padding: 1em;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 #title1:hover {
-     background-color: #fc4109;
+     background-color: rgb(243, 223, 243);
 }
 
-
-header {
-    background-color: brown;
-}
-
-p {
-    width: 50vw;
-}
-
-#imgprincipal {
-    width: auto;
-    height: auto;
-    padding: 1em;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    
-}
 
 #sucesos {
     background-color: rgb(226, 220, 220);
