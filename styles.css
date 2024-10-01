@@ -13,18 +13,15 @@ header {
     background-color: rgb(243, 223, 243);
 }
 
-p {
-    width: 25em;
-    height: 10em;
-    display: flex;
-    text-align: center;
-
-}
-
 button {
     border: 1px solid black;
     padding: 0.5em;
     display: flex;
+}
+
+li {
+    font-size: large;
+    font-weight: bolder;
 }
 
 .img {
@@ -45,8 +42,14 @@ button {
     background-color: rgb(241, 171, 224);
 }
 
+.spotifyimg img {
+    width: 2em;
+    height: 2em;
+}
+
 .title {
     font-size: large;
+    font-weight: normal;
     border: 4px double rgb(190, 133, 182);
     width: 40vw;
     background-color: rgb(243, 223, 243);
@@ -77,11 +80,15 @@ button {
 }
 
 .title2:hover {
+    border: 1px solid rgb(241, 171, 224);
+    border-radius: 1.5em;
     background-color: rgb(241, 171, 224);
 }
 
 .itempa {
-    text-align: center;
+    text-align: justify;
+    width: 25em;
+    height: 10em;
 }
 
 .albumsestudio {
@@ -100,36 +107,88 @@ button {
 }
 
 .titulolinkspot .linkbuttonestudio {
-    margin-top: 2em;
+    margin-top: 4em;
     display: flex;
     justify-items: first baseline;
 }
 
-.albumsvivo {
+.flexinsidebutton {
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-       
-}
-
-.linkbuttonestudio {
-    border: 1px solid black;
-    border-radius: 25px;
-    background-color: green;
-    font-weight: bold;
-    font-size: small;
-    padding: 0.5em;
-}
-
-.linkbuttonvivo {
-    border: 1px solid black;
-    border-radius: 25px;
-    background-color: green;
-    font-weight: bold;
-    font-size: small;
-    padding: 0.5em;
+    justify-content: space-between;
     
+}
+
+.flexinsidebutton .spotifyimg {
+    display: flex;
+    align-self: self-start;
+    padding-left: 0.3em;
+}
+
+
+.linkbutton {
+    border: 1px solid rgb(241, 171, 224);
+    border-radius: 25px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-right: 25px;
+    background-color: rgb(241, 171, 224);
+    font-weight: bold;
+    font-size: 85%;
+    padding: 0.5em;
+    margin-top: 3em;
+    }
+
+.linkbutton:hover {
+    background-color: rgb(47, 202, 47);
+}
+
+.sucesos {
+    margin-bottom: 4em;
+}
+
+.lista1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.hito {
+    border: 0.2em solid rgb(241, 171, 224);
+    background-color: rgb(241, 171, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.hito li {
+    margin-top: 1em;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+}
+
+.hito p {
+    text-align: justify;
+    width: 25em;
+    height: 10em;
+    padding: 0.5em;
+}
+
+.hito:hover {
+    border: 0.2em solid rgb(241, 171, 224);
+    border-radius: 2em;
+    background-color: rgb(243, 223, 243);
+        
+}
+
+.grabaciones {
+
 }
 
 .bordeseparar {
@@ -144,42 +203,42 @@ button {
     margin-bottom: 1em;
 }
 
+.albumsvivo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;       
+}
+
+.woodrey {
+    padding: 2em;
+    padding-bottom: 3em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pes {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: justify;
+    width: 25em;
+    height: 10em;
+}
+
+.woodrey .linkbutton {
+    margin-top: 2em;
+}
+
 #ramasflex {
     margin-top: 0em;
     background-color: rgb(243, 223, 243);
     padding: 0.7em;    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-}
-
-#Woodstock {
-    margin: auto;
-    margin-top: 1em;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-#Woodstock p {
-    margin-top: 3em;
-}
-
-#monterey {
-    margin: auto;
-    margin-top: 1em;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#monterey p {
-    margin-top: 3em;
 }
 
 #title1 {
@@ -203,16 +262,65 @@ button {
      background-color: rgb(243, 223, 243);
 }
 
-
-#sucesos {
-    background-color: rgb(226, 220, 220);
-    width: 50vw;
+.olgrab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: upper-roman;
 }
 
-#sucesos:hover {
-    background-color: rgb(209, 205, 195);
+#fines {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
+#pult {
+    font-size: x-small;
+}
 
+.enlacesdeinteres {
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    justify-items: normal;
 
+}
 
+.enlacefoot {
+    border: 1px solid rgb(241, 171, 224);
+    padding: 0.3em;
+    border-radius: 50px ;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.enlacefoot:hover {
+    background-color: rgb(241, 171, 224);
+}
+
+.title3 {
+    width: 25vw;
+    height: 3em;
+    border: 1px solid rgb(241, 171, 224);
+    border-radius: 1.5em; 
+    padding: 1em;
+    background-color: rgb(241, 171, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title3:hover {
+    border: 1px solid rgb(241, 171, 224);
+    border-radius: 1.5em;
+    background-color: rgb(243, 223, 243);
+}

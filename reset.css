@@ -44,7 +44,7 @@ table {
 input,
 textarea,
 select,
-button {
+ {
     border: 1px solid #ccc; /* Borde predeterminado */
     padding: 0.5em; /* Espaciado interno */
     font-size: 100%;
