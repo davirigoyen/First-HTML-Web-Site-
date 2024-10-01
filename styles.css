@@ -1,7 +1,7 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
-    background-color: rgb(243, 223, 243);
+    background-color: rgb(230, 218, 229);
   }
 
 header, main, footer {
@@ -10,7 +10,7 @@ header, main, footer {
 }
 
 header {
-    background-color: rgb(243, 223, 243);
+    background-color: rgb(230, 218, 229);
 }
 
 button {
@@ -35,7 +35,8 @@ li {
 .ramas {
     border: 1px solid rgb(241, 171, 224);
     padding: 0.3em;
-    border-radius: 50px ;
+    border-radius: 50px;
+    background-color: rgb(243, 223, 243);
 }
 
 .ramas:hover {
@@ -92,7 +93,7 @@ li {
 }
 
 .albumsestudio {
-    background-color: rgb(243, 223, 243);
+    background-color: rgb(230, 218, 229);
     padding: 0.7em;
     display: flex;
     flex-direction: row;
@@ -159,7 +160,8 @@ li {
 
 .hito {
     border: 0.2em solid rgb(241, 171, 224);
-    background-color: rgb(241, 171, 224);
+    border-radius: 2em;
+    background-color: rgb(230, 218, 229);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -181,7 +183,7 @@ li {
 }
 
 .hito:hover {
-    border: 0.2em solid rgb(241, 171, 224);
+    border: 0.2em dotted rgb(241, 171, 224);
     border-radius: 2em;
     background-color: rgb(243, 223, 243);
         
@@ -234,7 +236,7 @@ li {
 
 #ramasflex {
     margin-top: 0em;
-    background-color: rgb(243, 223, 243);
+    background-color: rgb(230, 218, 229);
     padding: 0.7em;    
     display: flex;
     justify-content: space-evenly;
@@ -242,7 +244,7 @@ li {
 }
 
 #title1 {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     border: 4px double rgb(138, 96, 96);
     border-radius: 50px;
     width: 55vw;
